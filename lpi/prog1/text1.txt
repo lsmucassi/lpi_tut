@@ -1,0 +1,12 @@
+text1.doc
+text1.png
+text1.sh
+text1.txt
+config-err-8yvTi4
+ssh-1jSNzv7ait5R
+systemd-private-57f61001f9f14ba58deff86ecca5cef1-bolt.service-tkIqiN
+systemd-private-57f61001f9f14ba58deff86ecca5cef1-colord.service-VLR7oj
+systemd-private-57f61001f9f14ba58deff86ecca5cef1-fwupd.service-UHQyM8
+systemd-private-57f61001f9f14ba58deff86ecca5cef1-ModemManager.service-atIkZL
+systemd-private-57f61001f9f14ba58deff86ecca5cef1-rtkit-daemon.service-T6bT9h
+systemd-private-57f61001f9f14ba58deff86ecca5cef1-systemd-resolved.service-m4PRUM
