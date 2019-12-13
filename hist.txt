@@ -1,0 +1,203 @@
+    1  java
+    2  cd /etc/skel/
+    3  ls
+    4  ls -la
+    5  cp .bashrc ~/
+    6  cd ~
+    7  ls
+    8  source .bashrc 
+    9  ls
+   10  l
+   11  man ls
+   12  apropos editor
+   13  ed
+   14  ls
+   15  cd w o
+   16  cd workspace/
+   17  ls
+   18  ex
+   19  rview
+   20  rvim
+   21  view
+   22  pwd
+   23  cd study/
+   24  mkdir lin_workbench
+   25  cd lin_workbench/
+   26  vim states.txt
+   27  grep "x" states.txt 
+   28  grep "nia"
+   29  grep "nia" states.txt 
+   30  grep "nia*" states.txt 
+   31  grep nia* states.txt 
+   32  grep nia*. states.txt 
+   33  grep .nia*. states.txt 
+   34  grep .nia* states.txt 
+   35  grep .* states.txt 
+   36  grep * states.txt 
+   37  grep "*" states.txt 
+   38  grep ".*" states.txt 
+   39  grep . states.txt 
+   40  cat states.txt 
+   41  vim states.txt 
+   42  sudo apt install nodejs
+   43  sudo apt install node
+   44  node
+   45  ls
+   46  mkdir  Documents Downloads Media
+   47  mv workspace/ WorkSpace
+   48  ls WorkSpace/
+   49  cd WorkSpace/
+   50  ls
+   51  cd study/
+   52  ls
+   53  cd lin_workbench/
+   54  ls
+   55  npm
+   56  sudo apt install curl
+   57  curl
+   58  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+   59  command -v nvm
+   60  nvm -v
+   61  nvm ls
+   62  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+   63  sudo apt update
+   64  pwd
+   65  ls
+   66  grep "i.g" states.txt 
+   67  grep "i*g" states.txt 
+   68  grep "i..g" states.txt 
+   69  grep "i.rg" states.txt 
+   70  grep "rg" states.txt 
+   71  grep "s+as" states.txt 
+   72  egrep "s+as" states.txt 
+   73  egrep "s*as" states.txt 
+   74  grep "s{2}" states.txt 
+   75  egrep "s{2}" states.txt 
+   76  egrep "s{2}{3}" states.txt 
+   77  egrep "s{2}{1}" states.txt 
+   78  egrep "s{2, 3}" states.txt 
+   79  egrep "s{2,3}" states.txt 
+   80  egrep "s{ }" states.txt 
+   81  egrep "(s.{2}){3}" states.txt 
+   82  egrep "(s.{2}){2}" states.txt 
+   83  egrep "(p.{2}){2}" states.txt 
+   84  ls
+   85  ls -la
+   86  touch small.txt
+   87  echo "abcdefghijklmnopqrstuvwxyz" >> small.txt 
+   88  echo "ABCDEFGHIJKLMNOPQRSTUVWXYZ" >> small.txt 
+   89  echo 01233456789 >> small.txt 
+   90  vim write.sh
+   91  sh write.sh 
+   92  cat small.txt 
+   93  egrep \w small.txt 
+   94  egrep "\w" small.txt 
+   95  egrep "\d" small.txt 
+   96  egrep "\s" small.txt 
+   97  egrep \d small.txt 
+   98  egrep \D small.txt 
+   99  egrep "\D" small.txt 
+  100  egrep "\i" small.txt 
+  101  egrep "\n" small.txt 
+  102  egrep -v "\w" small.txt 
+  103  egrep -v "\W" small.txt 
+  104  egrep -v "\S" small.txt 
+  105  egrep -v "\s" small.txt 
+  106  egrep "\s" small.txt 
+  107  egrep "\S" small.txt 
+  108  egrep "\W" small.txt 
+  109  egrep "\d" small.txt 
+  110  egrep "[aeiou]" small.txt 
+  111  egrep "[^aeiou]" small.txt 
+  112  egrep -w "[^aeiou]" small.txt 
+  113  man egrep
+  114  egrep "[E-q]" small.txt 
+  115  egrep "[e-q]" small.txt 
+  116  egrep "[E-Q]" small.txt 
+  117  egrep "[Q-E]" small.txt 
+  118  egrep "[q-e]" small.txt 
+  119  egrep "[e-qE-Q]" small.txt 
+  120  egrep "[\+]" small.txt 
+  121  egrep "[+]" small.txt 
+  122  egrep "^[AEIOU]" states.txt 
+  123  egrep "^[AEIOU]." states.txt 
+  124  egrep "^[AEIOU].+" states.txt 
+  125  egrep "^[AEIOU]{1}" states.txt 
+  126  egrep "^[AEIOU]{1}." states.txt 
+  127  egrep "^[AEIOU]{1}.+" states.txt 
+  128  egrep "^[AEIOU]{1}.+[aeiou]" states.txt 
+  129  egrep "^[AEIOU]{1}.+[aeiou]$" states.txt 
+  130  vi /.bashrc
+  131  cd ~
+  132  vim .vimrc
+  133  ls -la
+  134  rm .vimrc 
+  135  vim .vimrc
+  136  vim .bashrc 
+  137  ls
+  138  find . -name small
+  139  find . -name small.txt
+  140  find  -name small.txt
+  141  ls
+  142  cd WorkSpace/study/
+  143  ls
+  144  cd lin_workbench/
+  145  ls
+  146  egrep "[-new-]" small.txt states.txt 
+  147  egrep "[new]" small.txt states.txt 
+  148  egrep "new" small.txt states.txt 
+  149  egrep "new." small.txt states.txt 
+  150  egrep ".new" small.txt states.txt 
+  151  egrep "New" small.txt states.txt 
+  152  history
+  153  history >> hist.txt
+===============
+java
+cd /etc/skel/
+ls
+ls -la
+cp .bashrc ~/
+cd ~
+ls
+source .bashrc 
+ls
+l
+man ls
+apropos editor
+ed
+ls
+cd w o
+cd workspace/
+ls
+ex
+rview
+rvim
+view
+pwd
+cd study/
+mkdir lin_workbench
+cd lin_workbench/
+vim states.txt
+grep "x" states.txt 
+grep "nia"
+grep "nia" states.txt 
+grep "nia*" states.txt 
+grep nia* states.txt 
+grep nia*. states.txt 
+grep .nia*. states.txt 
+grep .nia* states.txt 
+grep .* states.txt 
+grep * states.txt 
+grep "*" states.txt 
+grep ".*" states.txt 
+grep . states.txt 
+cat states.txt 
+vim states.txt 
+sudo apt install nodejs
+sudo apt install node
+node
+ls
+pwd
+ls
+l
+ls -la
